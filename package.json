@@ -1,0 +1,31 @@
+{
+  "name": "nodejs-socket-server",
+  "version": "0.0.1",
+  "description": "A skeleton Node.js socket.io server that makes no asumptions.",
+  "keywords": [
+    "Node.js",
+    "application"
+  ],
+  "author": {
+    "name": "Jared Sprague",
+    "email": "jared@scripta.co",
+    "url": "http://scripta.co/"
+  },
+  "homepage": "http://scripta.co/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jared-Sprague/nodejs-socketio-server"
+  },
+  "dependencies": {
+    "express": "^4.13.4",
+    "console-stamp": "~0.2.0",
+    "socket.io": "~1.4.5"
+  },
+  "devDependencies": {},
+  "bundleDependencies": [],
+  "private": true,
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js"
+  }
+}
